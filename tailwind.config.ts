@@ -47,6 +47,39 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Healthcare Information Types
+        observation: {
+          DEFAULT: "hsl(var(--observation))",
+          light: "hsl(var(--observation-light))",
+        },
+        condition: {
+          DEFAULT: "hsl(var(--condition))",
+          light: "hsl(var(--condition-light))",
+        },
+        procedure: {
+          DEFAULT: "hsl(var(--procedure))",
+          light: "hsl(var(--procedure-light))",
+        },
+        medication: {
+          DEFAULT: "hsl(var(--medication))",
+          light: "hsl(var(--medication-light))",
+        },
+        diagnostic: {
+          DEFAULT: "hsl(var(--diagnostic))",
+          light: "hsl(var(--diagnostic-light))",
+        },
+        encounter: {
+          DEFAULT: "hsl(var(--encounter))",
+          light: "hsl(var(--encounter-light))",
+        },
+        allergy: {
+          DEFAULT: "hsl(var(--allergy))",
+          light: "hsl(var(--allergy-light))",
+        },
+        timeline: {
+          line: "hsl(var(--timeline-line))",
+          dot: "hsl(var(--timeline-dot))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
